@@ -16,7 +16,7 @@ document-settings {
 	page-inset-top:		24mm;	page-inset-inner:	24mm
 	page-inset-bottom:	24mm;	page-inset-outer:	24mm
 
-	section-break:			heading-1
+	section-break:			paragraph-divider
 	// Continue on a new page after dividers
 
 	two-sided:				no
@@ -54,8 +54,8 @@ defaults {
 area-header {
 	content:				heading
 
-	top-spacing:			13mm
-	bottom-spacing:			13mm
+	top-spacing:			12mm
+	bottom-spacing:			6mm
 
 	font-size:				10pt
 }
@@ -113,15 +113,17 @@ heading-1 {
 	font-size:				30pt
 	line-height:			36pt
 
-	margin-bottom:			10mm
+	margin-bottom:			2mm
 }
 
 heading-2 {
-	font-size:				24pt
+	font-size:				22pt
 	line-height:			28pt
 
-	margin-top:				7mm
-	margin-bottom:			5mm
+	font-weight:			normal
+
+	margin-top:				2mm
+	margin-bottom:			2mm
 }
 
 heading-3 {
